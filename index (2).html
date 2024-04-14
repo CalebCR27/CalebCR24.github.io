@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina el número</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Adivina el número (entre 1 y 100)</h1>
+  <p>Introduce un número:</p>
+  <input type="number" id="input-numero">
+  <button onclick="adivinarNumero()">Adivinar</button>
+  <p id="resultado"></p>
+  <p>Intentos anteriores: <span id="intentos-anteriores"></span></p>
+  <button onclick="iniciarJuego()">Nuevo Juego</button>
+
+  <script src="adivina.js"> </script>
+</body>
+</html>
